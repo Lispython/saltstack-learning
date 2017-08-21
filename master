@@ -12,13 +12,11 @@ file_roots:
     - /playbooks/saltstack/area51/states/base/
   test:
     - /playbooks/saltstack/area51/states/base/
+    - /playbooks/saltstack/area51/states/test/
 
 pillar_roots:
-  test:
-    - /playbooks/saltstack/area51/pillars/test/
-
   base:
-    - /playbooks/saltstack/area51/pillars/base/
+    - /playbooks/saltstack/area51/pillars/
 
 
 #include:
