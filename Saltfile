@@ -1,0 +1,7 @@
+salt-ssh:
+  roster_file: /playbooks/saltstack/area51/roster
+  sudo: true
+  ignore_host_keys: true
+  wipe: true
+  log_file: /playbooks/saltstack/area51/logs
+  config_dir: /playbooks/saltstack/area51/
